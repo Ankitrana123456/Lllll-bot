@@ -17,14 +17,14 @@ from datetime import datetime
 
 # 🔧 Enhanced Config with monitoring capabilities
 class Config(object):
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7767901658:AAEQ_6jOYQVZwq3STmolGceYhLfHZc-WEFY")
-    API_ID = int(os.environ.get("API_ID",  "23075295"))
-    API_HASH = os.environ.get("API_HASH", "93b13e8efb0c24e00458be3f734d7e41")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8340567662:AAHd9DBZhFh84N1onqKYrDwW0fl7FznAwZU")
+    API_ID = int(os.environ.get("API_ID",  "22182189"))
+    API_HASH = os.environ.get("API_HASH", "5e7c4088f8e23d0ab61e29ae11960bf5")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     SESSIONS = "./SESSIONS"
     
     # ─── OWNER SETTINGS ───
-    OWNER_ID = int(os.environ.get("OWNER_ID", "1970647198"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5302639580"))
     OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "Contact_xbot")
     
     # ─── USER MANAGEMENT ───
